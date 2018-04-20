@@ -1,0 +1,115 @@
+.pink-text {
+  color: #E24260;
+}
+
+.landing-page__text {
+  font-size: 5.2em;
+  margin: 1.4em 0.6em 0 0;
+}
+
+.fill {
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-page {
+  padding: 4em;
+}
+
+.landing-page__background {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(/images/background-rotated.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.6;
+}
+
+.landing-page__header {
+  font-size: 12em;
+  margin: 1.2em 0.6em 0 0;
+}
+
+.landing-page__go {
+  float: right;
+  padding: 0.2em;
+  font-size: 8.9em;
+  margin: 1.8em .1em;
+  border-radius: 15px;
+  border: 5px #E24260 solid;
+  background-color: transparent;
+  transition: background-color .4s;
+}
+
+.landing-page__go:hover {
+  background-color: rgba(226, 66, 99, .5);
+  transition: background-color .4s;
+}
+
+.process-sec {
+  top: 100%;
+  width: 100%;
+  height: 200%;
+  padding: 4em 0;
+  text-align: center;
+  position: absolute;
+  background: url(../images/pattern.gif) 0 0 repeat;
+}
+
+.process-sec__header {
+  font-size: 5.2em;
+}
+
+.step-circle {
+  cx: 50%;
+  r: 3.7em;
+  fill: #E24260;
+  stroke: #E24260;
+  stroke-width: 3px;
+}
+
+.step-circle:nth-child(01) { cy: 05% }
+.step-circle:nth-child(02) { cy: 15% }
+.step-circle:nth-child(03) { cy: 25% }
+.step-circle:nth-child(04) { cy: 35% }
+.step-circle:nth-child(05) { cy: 45% }
+.step-circle:nth-child(06) { cy: 55% }
+.step-circle:nth-child(07) { cy: 65% }
+.step-circle:nth-child(08) { cy: 75% }
+.step-circle:nth-child(09) { cy: 85% }
+.step-circle:nth-child(10) { cy: 95% }
+
+.vertical-line {
+  top: 10%;
+  z-index: 0;
+  height: 85%;
+  position: absolute;
+  left: calc(50% - 6px);
+  border: 6px #E24260 solid;
+}
+
+.process-sec__service {
+  font-size: 2.7em;
+  padding: 1em;
+  position: absolute;
+  border-radius: 20px;
+  border: 2px #E24260 solid;
+  background-color: transparent;
+}
+
+.process-sec__service:nth-child(01) { top: 05% }
+.process-sec__service:nth-child(02) { top: 15% }
+.process-sec__service:nth-child(03) { top: 25% }
+.process-sec__service:nth-child(04) { top: 35% }
+.process-sec__service:nth-child(05) { top: 45% }
+.process-sec__service:nth-child(06) { top: 55% }
+.process-sec__service:nth-child(07) { top: 65% }
+.process-sec__service:nth-child(08) { top: 75% }
+.process-sec__service:nth-child(09) { top: 85% }
+.process-sec__service:nth-child(10) { top: 95% }
+.process-sec__service:nth-child(odd) { left: 2% }
+.process-sec__service:nth-child(even) { right: 2% }
