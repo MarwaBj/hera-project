@@ -1,0 +1,10 @@
+{
+  "products": {
+    "concert_halls": [
+      { "name": "halla", "price": 1200, "rating": 87, "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "buy_count": 123, "price_currency": "USD", "image_links": ["/images/concertHall.jpg"]},
+      { "name": "hallB", "price": 1700, "rating": 89, "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "buy_count": 313, "price_currency": "USD", "image_links": ["/images/concertHall.jpg"]},
+      { "name": "hallC", "price": 1500, "rating": 79, "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "buy_count": 267, "price_currency": "USD", "image_links": ["/images/concertHall.jpg"]},
+      { "name": "hallD", "price": 1000, "rating": 91, "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "buy_count": 517, "price_currency": "USD", "image_links": ["/images/concertHall.jpg"]}
+    ]
+  }
+}

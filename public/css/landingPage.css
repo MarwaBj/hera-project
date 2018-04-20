@@ -54,6 +54,7 @@
 
 .process-sec {
   top: 100%;
+  z-index: -1;
   width: 100%;
   height: 200%;
   padding: 4em 0;
