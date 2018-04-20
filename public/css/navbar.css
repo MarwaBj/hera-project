@@ -1,0 +1,85 @@
+#backToTop {
+  z-index: 1;
+  right: 1em;
+  border: none;
+  width: 200px;
+  outline: none;
+  height: 200px;
+  font-size: 7em;
+  position: fixed;
+  background: url(/images/heart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#backToTop:not(.active) {
+  bottom: -3em;
+  transition: bottom .4s;
+}
+
+#backToTop.active {
+  bottom: 1em;
+  transition: bottom .4s;
+}
+
+@media only screen and (min-width: 500px) {
+  .navbar__dropdown {
+    z-index: 1;
+    top: 109px;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: fixed;
+    margin-top: -2px;
+    padding-bottom: 1em;
+    background-color: #E24260;
+  }
+
+  .navbar__dropdown:not(.active) {
+    font-size: 0;
+    margin-top: -3em;
+    transition: font-size .4s;
+  }
+
+  .navbar__dropdown.active {
+    font-size: 3em;
+    transition: font-size .4s;
+  }
+
+  .navbar__dropdown li {
+    padding: .25em 0.6em;
+  }
+
+  .navbar__list-mobile {
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    font-size: 3.8em;
+    padding: .3em .5em;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: #E24260;
+    justify-content: space-around;
+  }
+
+  .left-nav {
+    float: left;
+  }
+
+  .right-nav {
+    float: right;
+  }
+
+  .burger-menu:not(.active) {
+      transform: rotate(0);
+      transition: transform .4s;
+  }
+
+  .burger-menu.active {
+      transform: rotate(-90deg);
+      transition: transform .4s;
+  }
+}

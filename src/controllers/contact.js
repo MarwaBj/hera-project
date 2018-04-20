@@ -1,3 +1,3 @@
-exports.get = (req, res) => {
-  res.render('contact', {contact: true})
+module.exports= (req, res) => {
+  res.render('contact', {contact: true , style:'landingPage'})
 }
