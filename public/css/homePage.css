@@ -1,0 +1,467 @@
+/* Contact div background*/
+.contactContainer{
+width: 367px;
+height: 394px;
+background: url('./images/contact.jpg');
+}
+/* Form frame*/
+.formFrame{
+width: 337px;
+height: 354px;
+background: url('./images/frame.png');
+}
+/* input text in contact form */
+.username{
+width: 240px;
+height: 54px;
+background: #FFFFFF;
+border: 1px solid #E24260;
+box-sizing: border-box;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 12px;
+}
+/* input text for notes in contact form */
+.notes{
+  width: 240px;
+  height:100px;
+  background: #FFFFFF;
+  border: 1px solid #E24260;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 12px;
+}
+.submitbutton{
+    background-color: #E24260;
+    border: 2px solid #000;
+    color: #fff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.submitbutton:hover{
+    background-color: #fff;]
+    color: #E24260;
+}
+
+.vendoersLinks a{
+    text-align: center;
+	float: left;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #E24260;
+	border-radius: 100%;
+	margin-right: 7px; /*space between*/
+}
+
+.vendoersImg{
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  	color: #E24260;
+}
+/***login and register***/
+/* Rectangle 2 */
+
+position: absolute;
+width: 360px;
+height: 263px;
+left: -1px;
+top: 431px;
+
+background: linear-gradient(180deg, rgba(247, 98, 159, 0.77) 0%, rgba(255, 255, 255, 0) 100%), rgba(226, 66, 96, 0.4);
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 22px;
+height: 24px;
+left: 212px;
+top: 473px;
+
+background: #4D4D4C;
+
+
+/* Line 2 */
+
+position: absolute;
+width: 12.04px;
+height: 0px;
+left: 216.98px;
+top: 484.5px;
+
+border: 1px solid #FFFFFF;
+
+
+/* Line 2.1 */
+
+position: absolute;
+width: 12.04px;
+height: 0px;
+left: 223px;
+top: 490.52px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(-90deg);
+
+
+/* Forget your password? */
+
+position: absolute;
+width: 90px;
+height: 14px;
+left: 81px;
+top: 651px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 9px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Keep me logged in */
+
+position: absolute;
+width: 49px;
+height: 30px;
+left: 25px;
+top: 651px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 9px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 19px;
+top: 520px;
+
+background: rgba(0, 0, 0, 0.22);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Rectangle 3.3 */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 212px;
+top: 507px;
+
+background: rgba(0, 0, 0, 0.22);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Rectangle 3.4 */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 212px;
+top: 549px;
+
+background: rgba(0, 0, 0, 0.22);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Rectangle 3.5 */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 212px;
+top: 590px;
+
+background: rgba(0, 0, 0, 0.2);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Line */
+
+position: absolute;
+width: 234.03px;
+height: 0px;
+left: 177px;
+top: 448px;
+
+border: 4px solid rgba(0, 0, 0, 0.2);
+transform: rotate(89deg);
+
+
+/* heartshaped-clipart-pink-1 */
+
+position: absolute;
+width: 52px;
+height: 55px;
+left: 153px;
+top: 538px;
+
+background: url(heartshaped-clipart-pink-1.png);
+
+
+/* Username */
+
+position: absolute;
+width: 42px;
+height: 15px;
+left: 66px;
+top: 526px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Username */
+
+position: absolute;
+width: 42px;
+height: 15px;
+left: 229px;
+top: 513px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Rectangle 3.1 */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 19px;
+top: 573px;
+
+background: rgba(0, 0, 0, 0.22);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Password */
+
+position: absolute;
+width: 38px;
+height: 15px;
+left: 47px;
+top: 579px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Password */
+
+position: absolute;
+width: 38px;
+height: 15px;
+left: 229px;
+top: 556px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Confirm Password */
+
+position: absolute;
+width: 73px;
+height: 15px;
+left: 229px;
+top: 597px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Rectangle 3.2 */
+
+position: absolute;
+width: 67px;
+height: 27px;
+left: 54px;
+top: 620px;
+
+background: #E24260;
+border-radius: 5px;
+
+
+/* Rectangle 3.7 */
+
+position: absolute;
+width: 67px;
+height: 27px;
+left: 258px;
+top: 631px;
+
+background: #E24260;
+border-radius: 5px;
+
+
+/* Log In > */
+
+position: absolute;
+width: 41px;
+height: 15px;
+left: 66px;
+top: 626px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Log In > */
+
+position: absolute;
+width: 35px;
+height: 15px;
+left: 274px;
+top: 637px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 19px;
+top: 654px;
+
+background: #FFFFFF;
+
+
+/* Already have an account? Log In Here */
+
+position: absolute;
+width: 126px;
+height: 57px;
+left: 23px;
+top: 440px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: center;
+
+color: #000000;
+
+
+/* Dont have an account? Register Now */
+
+position: absolute;
+width: 113px;
+height: 57px;
+left: 214px;
+top: 438px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: center;
+
+color: #000000;
+
+
+/* VS */
+
+position: absolute;
+width: 29px;
+height: 36px;
+left: 166px;
+top: 547px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+
+color: #FFFFFF;
+
+
+/* previous-512 */
+
+position: absolute;
+width: 22.46px;
+height: 24.11px;
+left: 45.46px;
+top: 497.3px;
+
+background: url(previous-512.png);
+transform: rotate(-179.51deg);
