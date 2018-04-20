@@ -1,0 +1,35 @@
+footer {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+  position: fixed;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+footer .header {
+  font-size: 4em;
+}
+
+.left_footer {
+  width: 25%;
+  float: left;
+}
+
+.right_footer {
+  width: 75%;
+  float: right;
+  font-size: 2.2em;
+}
+
+.footer_contacts {
+  display: flex;
+  font-size: 2.1em;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.facebook-blue { color: #3c5999 }
+.twitter-blue { color: #2e9cec }
+.insta-col { color: #e84b3f }
