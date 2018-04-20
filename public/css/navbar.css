@@ -25,6 +25,7 @@
 
 @media only screen and (min-width: 500px) {
   .navbar__dropdown {
+    z-index: 1;
     top: 109px;
     width: 100%;
     height: auto;
@@ -52,6 +53,7 @@
 
   .navbar__list-mobile {
     top: 0;
+    z-index: 1;
     width: 100%;
     display: flex;
     position: fixed;
