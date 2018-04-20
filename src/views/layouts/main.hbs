@@ -8,10 +8,11 @@
   <header>
     {{>navbar}}
   </header>
-  <body>
+  <body onscroll="useScroll()">
     {{{body}}}
   </body>
   <script src="/js/navbar.js"  charset="utf-8"></script>
+  <script src="/js/{{style}}.js"  charset="utf-8"></script>
   <footer>
     {{>footer}}
   </footer>

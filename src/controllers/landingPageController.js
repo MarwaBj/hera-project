@@ -1,3 +1,3 @@
 module.exports = (req, res) => {
-  res.render('landingPage', { title: 'هيرا', style: 'landingPage.css' });
+  res.render('landingPage', { title: 'Hera', style: 'landingPage' });
 };
