@@ -1,5 +1,6 @@
 const Error500Server = (err, req, res, next) => {
-  res.status(500).render('500', { layout: false });
+  console.log('err', err);
+  res.status(500).send(err.toString());
 };
 
 const Error404Client = (req, res) => {

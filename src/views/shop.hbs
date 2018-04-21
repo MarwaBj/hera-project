@@ -1,0 +1,21 @@
+<div class="shop">
+  <h1 class="shop__header">Shop For Concert Halls</h1>
+  {{#each product_result}}
+    <div name="product_{{this.id}}" class="shop__product" onclick="openShopPop(this)">
+      <img src="{{this.image_links}}" alt="{{this.name}}">
+      <h2>{{this.name}}</h2>
+    </div>
+    <div id="shpp_{{this.id}}" class="shop__product-pop-container">
+      <div class="shop__product-pop">
+        <img src="{{this.image_links}}" alt="{{this.name}}">
+        <h2>Details</h2>
+        <p>{{this.description}}</p>
+        {{#if this.countable}}
+          <label>Quantity</label><input type="number" name="quantity" value="1" />
+        {{/if}}
+        <h3>Price: {{this.price}} {{this.price_currency}}</h3>
+        <button type="button" name="button" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i></button>
+      </div>
+    </div>
+  {{/each}}
+</div>

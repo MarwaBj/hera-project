@@ -47,9 +47,13 @@ function backbtnHandler(e) {
   if (e.name === 'backToTop') return scrollToPlace(e.name);
   else if (e.name === 'exitVendors') {
     vendors.remove('active');
-    backbtn.name = 'backToTop';
-    backbtn.firstChild.classList.remove('rotate-90deg');
     isScrollable = true;
     popDropdown();
+  } else if (e.name.startsWith('exitShopProducts')) {
+    document.querySelector(`#shpp_${e.name.split('_')[2]}`).classList.remove('active');
   }
+  backbtn.name = 'backToTop';
+  backbtn.firstChild.classList.remove('rotate-90deg');
+  backbtn.classList.remove('active');
+  popDropdown();
 }
