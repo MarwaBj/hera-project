@@ -7,7 +7,7 @@
   height: 200px;
   font-size: 6.5em;
   position: fixed;
-  background: url(/images/heart.png);
+  background: url(https://i.imgur.com/pFUdmkz.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -88,7 +88,7 @@
     display: block;
     position: fixed;
     margin-top: -2px;
-    padding-bottom: 1em;
+    padding-bottom: .1em;
     background-color: #E24260;
   }
 
@@ -103,13 +103,16 @@
   }
 
   .navbar__dropdown li {
+    width: 100%;
+    text-align: center;
     padding: .25em 0.6em;
   }
 
   .navbar__list-mobile {
     top: 0;
     z-index: 1;
-    width: 100%;
+    width: 93%;
+    height: 75px;
     display: flex;
     position: fixed;
     font-size: 3.8em;
@@ -131,8 +134,7 @@
   }
 
   .navbar__list__li {
-    width: 100px;
-    height: auto;
+    height: 100%;
   }
 
   .navbar__list__li a { text-decoration: none; color: black }
@@ -158,4 +160,6 @@
       transform: rotate(-90deg);
       transition: transform .4s;
   }
+  .fas { color: white }
+  .logo {width: auto; height: 100%;}
 }
