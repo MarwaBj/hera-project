@@ -1,0 +1,7 @@
+<div class="cart">
+  <h1 class="cart__header">Cart</h1>
+  {{#each cartList}}
+  {{>cartItem title=this.title price=this.price priceCurrency=this.priceCurrency category=this.category}}
+  {{/each}}
+  <h2 class="cart__header">Total: {{total}}</h2>
+</div>
