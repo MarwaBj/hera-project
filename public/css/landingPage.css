@@ -1,18 +1,3 @@
-.pink-text {
-  color: #E24260;
-}
-
-.landing-page__text {
-  font-size: 5.2em;
-  margin: 1.4em 0.6em 0 0;
-}
-
-.fill {
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .landing-page {
   padding: 4em;
 }
@@ -38,7 +23,7 @@
   float: right;
   padding: 0.2em;
   font-size: 8.9em;
-  margin: 1.8em .1em;
+  margin: 1em .1em;
   border-radius: 15px;
   border: 5px #E24260 solid;
   background-color: transparent;
@@ -52,6 +37,7 @@
 
 .process-sec {
   top: 100%;
+  z-index: -1;
   width: 100%;
   height: 200%;
   padding: 4em 0;

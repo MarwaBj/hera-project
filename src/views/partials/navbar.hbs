@@ -1,18 +1,44 @@
 <div class="navbar">
   <ul class="navbar__list-mobile">
-    <li class="navbar__list__li left-nav">Hera</li>
-    <li class="navbar__list__li right-nav burger-menu" onclick="dropdown()">☰</li>
+    <li class="navbar__list__li left-nav"><a href="/">Hera</a></li>
+    <li><i class="fas fa-search"></i></li>
+    <li><a href="/cart"><i class="fas fa-shopping-basket"></i></a></li>
+    <li class="navbar__list__li right-nav burger-menu" onclick="dropdown()"><i class="fas fa-bars"></i></li>
   </ul>
   <ul class="navbar__dropdown navbar__list-wide">
-    <li>Home</li>
-    <li>Vendors</li>
+    <li onclick="activateVendors()">Vendors</li>
     <li>Blog</li>
     <li>About</li>
     <li>Contact</li>
     <li>Ar</li>
-    <li>F</li>
-    <li>T</li>
-    <li>I</li>
+    <li><i class="fab fa-facebook-f facebook-blue"></i></li>
+    <li><i class="fab fa-twitter twitter-blue"></i></li>
   </ul>
-  <button name="toTop" id="backToTop" type="button" name="button" onclick="scrollToPlace(this)">↥</button>
+  <button name="backToTop" id="backbtn" type="button" name="button" onclick="backbtnHandler(this)"><i class="fas fa-angle-up"></i></button>
+</div>
+<div class="vendors">
+<div class="vendor-sec vendors__dressers">
+  <div class="vendor-sec__logo">
+    <img src="/images/icon-wedding.svg" alt="">
+  </div>
+  <h2>Concert Halls</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <a class="vendors-sec__shopnow" href="/shop/concertHalls">Shop Now</a>
+</div>
+<div class="vendor-sec vendors__florists">
+  <div class="vendor-sec__logo">
+    <img src="/images/icon-bokay.svg" alt="">
+  </div>
+  <h2>Florists</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <a class="vendors-sec__shopnow" href="#">Shop Now</a>
+</div>
+<div class="vendor-sec vendors__cake">
+  <div class="vendor-sec__logo">
+    <img src="/images/icon-cake.svg" alt="">
+  </div>
+  <h2>Cake</h2>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <a class="vendors-sec__shopnow" href="#">Shop Now</a>
+</div>
 </div>

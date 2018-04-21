@@ -10,9 +10,14 @@
   </header>
   <body onscroll="useScroll()">
     {{{body}}}
+    <div class="footer_reserve"></div>
   </body>
+  <script src="/js/fetch.js" charset="utf-8"></script>
   <script src="/js/navbar.js"  charset="utf-8"></script>
-  <script src="/js/{{style}}.js"  charset="utf-8"></script>
+  <script src="/js/home.js" charset="utf-8"></script>
+  {{#if script}}
+  <script src="/js/{{script}}.js"  charset="utf-8"></script>
+  {{/if}}
   <footer>
     {{>footer}}
   </footer>

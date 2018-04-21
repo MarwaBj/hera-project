@@ -2,3 +2,25 @@
   margin: 0;
   padding: 0;
 }
+
+.pink-text {
+  color: #E24260;
+}
+
+.landing-page__text {
+  font-size: 5.2em;
+  margin: 1.4em 0.6em 0 0;
+}
+
+.rotate-90deg { transform: rotate(90deg); transition: transform .4s; }
+
+.fill {
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer_reserve {
+  height: 113px;
+  z-index: -3;
+}

@@ -1,4 +1,4 @@
-DROP TABLE users, shops, items, carts, _items, shops_items, users_invitees IF EXISTS;
+DROP TABLE IF EXISTS users, shops, items, carts, _items, shops_items, users_invitees CASCADE;
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY NOT NULL,
@@ -6,6 +6,7 @@ CREATE TABLE users (
   last_name VARCHAR NOT NULL,
   password VARCHAR NOT NULL,
   email VARCHAR NOT NULL,
+  range_budget_currency VARCHAR(5),
   range_budget VARCHAR,
   location VARCHAR
 );
@@ -32,7 +33,7 @@ CREATE TABLE items (
 );
 
 CREATE TABLE carts (
-  id SERIAL PRIMARY KEY NOT NULL,
+  id SERIAL PRIMARY KEY NOT NULL
 );
 
 CREATE TABLE cart_items (

@@ -1,11 +1,11 @@
-#backToTop {
+#backbtn {
   z-index: 1;
   right: 1em;
   border: none;
   width: 200px;
   outline: none;
   height: 200px;
-  font-size: 7em;
+  font-size: 6.5em;
   position: fixed;
   background: url(/images/heart.png);
   background-repeat: no-repeat;
@@ -13,14 +13,70 @@
   background-size: 100%;
 }
 
-#backToTop:not(.active) {
+#backbtn:not(.active) {
   bottom: -3em;
   transition: bottom .4s;
 }
 
-#backToTop.active {
+#backbtn.active {
   bottom: 1em;
   transition: bottom .4s;
+}
+
+#backbtn i:not(.rotate-90deg) { transition: transform .4s;}
+
+.vendors {
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  padding: 1.7em .5em;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.vendors:not(.active) {
+  right: -101vw;
+  transition: right .4s;
+}
+
+.vendors.active {
+  right: 0;
+  transition: right .4s;
+}
+
+.vendor-sec {
+  height: auto;
+  font-size: 4em;
+  padding: 3em .5em;
+  background-color: white;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid;
+}
+
+.vendor-sec__logo {
+  width: 5em;
+  height: 5em;
+  display: flex;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #E24260;
+}
+
+.vendor-sec__logo img {
+  width: 92%;
+  height: 92%;
+}
+
+.vendors-sec__shopnow {
+  color: #E24;
+  float: right;
+  padding: 0.5em;
+  text-decoration: none;
+  border: 4px #E24260 solid;
 }
 
 @media only screen and (min-width: 500px) {
@@ -38,7 +94,6 @@
 
   .navbar__dropdown:not(.active) {
     font-size: 0;
-    margin-top: -3em;
     transition: font-size .4s;
   }
 
@@ -65,6 +120,23 @@
     justify-content: space-around;
   }
 
+  .navbar__list-mobile:not(.opaque) {
+    background-color: rgba(226, 66, 96, 1);
+    transition: background-color .4s;
+  }
+
+  .navbar__list-mobile.opaque {
+    background-color: rgba(226, 66, 96, .5);
+    transition: background-color .4s;
+  }
+
+  .navbar__list__li {
+    width: 100px;
+    height: auto;
+  }
+
+  .navbar__list__li a { text-decoration: none; color: black }
+
   .left-nav {
     float: left;
   }
@@ -72,7 +144,11 @@
   .right-nav {
     float: right;
   }
-
+  .burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .burger-menu:not(.active) {
       transform: rotate(0);
       transition: transform .4s;
