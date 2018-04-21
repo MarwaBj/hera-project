@@ -21,6 +21,7 @@ function addToCart(e) {
       id,
       price,
       priceCurrency,
+      title: 'hall A',
       category: 'halls'
     }
   };

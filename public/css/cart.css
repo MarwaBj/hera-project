@@ -1,0 +1,27 @@
+.cart {
+  margin-top: 10%;
+  padding: 3% 5%;
+  background: url(/images/bg.svg);
+}
+
+.cart__header {
+  font-size: 4em;
+}
+
+.cart-item {
+  width: 90%;
+  padding: 1em 0;
+  margin: 20px 0;
+  font-size: 1.8em;
+  border-bottom: 3px black dotted;
+  border-top: 3px black dotted;
+}
+
+.cart-item__edit-keys button {
+  float: right;
+  border: none;
+  font-size: 2.4em;
+  margin-top: -1em;
+  padding: 0 0.3em;
+  background: transparent;
+}
