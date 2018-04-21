@@ -1,0 +1,71 @@
+.planning {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#myVideo{
+  width:100%;
+  height: 100%;
+  opacity:0.5;
+}
+.video{
+      width: 100%;
+      height: 50%;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.planningText{
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+}
+
+.planText{
+  text-align: center;
+font-family: monospace;
+font-size: 15px;
+}
+.Submitbtn{
+  width:50%;
+  height: 50px;
+  background-color:#E24260;
+  border: solid 1px #000;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  -webkit-transition-duration: 1s; /* Safari */
+  transition-duration: 0.5s;
+  cursor: pointer;
+    -webkit-animation: fadein 1s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 1s;
+    /* Internet Explorer */
+    -o-animation: fadein 1s;
+    /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+.Submitbtn:hover{
+  background-color:#fff;
+border: solid 1px #E24260;
+color: #E24260;
+}
