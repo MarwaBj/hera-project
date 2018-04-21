@@ -160,6 +160,6 @@
       transform: rotate(-90deg);
       transition: transform .4s;
   }
-  .fas { color: white }
+  .fa-search, .fa-shopping-basket, .fa-bars { color: white }
   .logo {width: auto; height: 100%;}
 }
