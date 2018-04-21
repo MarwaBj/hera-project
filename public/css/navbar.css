@@ -135,6 +135,8 @@
     height: auto;
   }
 
+  .navbar__list__li a { text-decoration: none; color: black }
+
   .left-nav {
     float: left;
   }
